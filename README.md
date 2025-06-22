@@ -39,6 +39,16 @@ TAREAFINALMODULO2/
 ├── docker-compose.yml    # Orquestador de contenedores
 └── PokeApi ENDPOINTS.postman_collection.json # Archivo de carga para pruebas de ENDPOINTS
 
+
+## Conexión a la BD postgres
+
+- Datos para conectar:
+-- Connection Name: localhost
+-- Port: 5432
+-- Name DataBase: pokemon_api
+-- User: postgres
+-- Password: postgres
+
 ---
 
 ## Usuario de prueba precargado
