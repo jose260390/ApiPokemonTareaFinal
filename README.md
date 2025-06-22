@@ -48,8 +48,6 @@ TAREAFINALMODULO2/
 
 ---
 
----
-
 ## Pokemones de prueba precargado
 
 - Al iniciar, se cargan en BD Postgres 10 pokemones para luego ser consumidos por la API y realizar las pruebas con los
