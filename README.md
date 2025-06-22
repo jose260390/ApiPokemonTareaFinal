@@ -52,15 +52,15 @@ TAREAFINALMODULO2/
 
 ### Autenticación(Correr en localhost:3000)
 
-- `POST /auth/login`: Login de usuario y genera token JWT
+- POST /auth/login: Login de usuario y genera token JWT
 
 ### Pokemones (Todos los ENDPOINTS requiere el uso del token generado anteriormente)
 
-- GET /pokemons/listPokemons`: Lista todos los pokemones
-- GET /pokemons/listPokemons/:id`: Obtener un pokemon por ID
-- POST /pokemons/createPokemon`: Crear un nuevo pokemon
-- PUT /pokemons/updatePokemon/:id`: Actualizar un pokemon
-- DELETE /pokemons/removePokemon/:id`: Eliminar un pokemon
+- GET /pokemons/listPokemons: Lista todos los pokemones
+- GET /pokemons/listPokemons/:id: Obtener un pokemon por ID
+- POST /pokemons/createPokemon: Crear un nuevo pokemon
+- PUT /pokemons/updatePokemon/:id: Actualizar un pokemon
+- DELETE /pokemons/removePokemon/:id: Eliminar un pokemon
 
 ---
 
