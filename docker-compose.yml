@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: taller-practico-final-api
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: pokemon_api
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    volumes:
+      - ./api:/usr/src/app
+    container_name: api-node-taller-final
+    restart: on-failure
+    env_file:
+      - ./api/.env
+    ports:
+      - '3000:3000'
+    depends_on:
+      - postgres
+
+
+
+volumes:
+  postgres-data:
