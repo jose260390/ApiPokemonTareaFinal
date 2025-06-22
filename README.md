@@ -75,7 +75,7 @@ TAREAFINALMODULO2/
 
 ---
 
-## 📬 Observaciones
+## Observaciones
 
 - Los datos de pokemones se cargan automáticamente al iniciar el contenedor.
 - Las contraseñas se encriptan con `bcryptjs`.
