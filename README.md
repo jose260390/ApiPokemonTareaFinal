@@ -39,6 +39,16 @@ TAREAFINALMODULO2/
 ├── docker-compose.yml    # Orquestador de contenedores
 └── PokeApi ENDPOINTS.postman_collection.json # Archivo de carga para pruebas de ENDPOINTS
 
+--
+## Ejecución:
+
+- Iniciar docker: docker compose up --build
+- Se crearán los containers de postgres y de la api
+- Si es que hay containers del mismo nombre iniciados se deben bajar: docker compose down -v
+- Una vez iniciado, se cargarán las tablas con los datos de los pokemones (10 registros) y la tabla user
+- Luego se pueden hacer consultas de los ENDPOINTS.
+
+--
 
 ## Conexión a la BD postgres
 
