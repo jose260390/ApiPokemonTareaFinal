@@ -43,8 +43,17 @@ TAREAFINALMODULO2/
 
 ## Usuario de prueba precargado
 
-- **Email:** `admin@node.com`
-- **Password:** `123456`
+- **Email:** admin@node.com
+- **Password:** 123456
+
+---
+
+---
+
+## Pokemones de prueba precargado
+
+- Al iniciar, se cargan en BD Postgres 10 pokemones para luego ser consumidos por la API y realizar las pruebas con los
+- Endpoints.
 
 ---
 
