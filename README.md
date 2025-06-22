@@ -63,8 +63,8 @@ TAREAFINALMODULO2/
 
 ## Usuario de prueba precargado
 
-- **Email:** admin@node.com
-- **Password:** 123456
+- Email: admin@node.com
+- Password: 123456
 
 ---
 
