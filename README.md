@@ -7,7 +7,7 @@ Este proyecto es una API REST construida con **Node.js**, **Express**, **Sequeli
 
 ## Estructura del Proyecto
 
-
+```
 TAREAFINALMODULO2/
 ├──api/
    ├── config/                # Configuración de base de datos
@@ -43,24 +43,24 @@ TAREAFINALMODULO2/
 
 ## Usuario de prueba precargado
 
-- **Email:** admin@node.com
-- **Password:** 123456
+- **Email:** `admin@node.com`
+- **Password:** `123456`
 
 ---
 
 ## Endpoints disponibles
 
-### Autenticación(la API corre en localhost:3000)
+### Autenticación(Correr en localhost:3000)
 
-- POST /auth/login: Login de usuario y genera token JWT
+- `POST /auth/login`: Login de usuario y genera token JWT
 
 ### Pokemones (Todos los ENDPOINTS requiere el uso del token generado anteriormente)
 
-- GET /pokemons/listPokemons0: Lista todos los pokemones
-- GET /pokemons/listPokemons/{id}: Obtener un pokemon por ID
-- POST /pokemons/createPokemon: Crear un nuevo pokemon
-- PUT /pokemons/updatePokemon/{id}: Actualizar un pokemon
-- DELETE /pokemons/removePokemon/{id}: Eliminar un pokemon
+- GET /pokemons/listPokemons`: Lista todos los pokemones
+- GET /pokemons/listPokemons/:id`: Obtener un pokemon por ID
+- POST /pokemons/createPokemon`: Crear un nuevo pokemon
+- PUT /pokemons/updatePokemon/:id`: Actualizar un pokemon
+- DELETE /pokemons/removePokemon/:id`: Eliminar un pokemon
 
 ---
 
